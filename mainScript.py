@@ -38,7 +38,7 @@ img_start_middle = 0
 img_end = -1  # Set to -1 to process all images in folder
 
 mapplotAnimationPresets.region_all_data(
-    dict_exif, dict_Loc_History, img_start, img_end, img_start_middle, project_name+"/region_norte/")
+    dict_exif, dict_Loc_History, img_start, img_end, img_start_middle, project_name+"/region/")
 
 mapplotAnimationPresets.centered_on_location(
     dict_exif, dict_Loc_History, img_start, img_end, img_start_middle, project_name+"/centered/")
