@@ -121,6 +121,7 @@ def check_time_order(dict_exif_in, autofix):
                 if autofix:
                     #Simple fix, set time to that of previous picture
                     dict_exif_in['timestampMs'][i-1] = dict_exif_in['timestampMs'][i]
+                    dict_exif_in['timestampMs_localtime'][i-1] = dict_exif_in['timestampMs_localtime'][i]
                 else:
                     print("File:", dict_exif_in['filename'][i - 1],
                           "Exif time", dict_exif_in['timestampMs_localtime'][i-1])
