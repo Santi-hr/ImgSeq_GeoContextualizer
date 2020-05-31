@@ -6,6 +6,10 @@ For best results, during your trip you can use some sports app (Like Endomondo) 
 
 ## How to use
 Will add this section later
+1. Open "main_script.py"
+2. Configure the input variables
+3. Configure which plots will be generated
+3. Run "main_script.py"
 
 ## Examples
 Will add this section later
@@ -17,4 +21,4 @@ Will add this section later
 * Exifread
 
 ## Terms of use
-This module fetches image maps from OpenStreetMap's servers. [See the usage policy](https://operations.osmfoundation.org/policies/tiles/). In particular, be careful not to retrieve large maps as this can overload the servers.
+This module fetches image maps from OpenStreetMap's servers. [See the usage policy](https://operations.osmfoundation.org/policies/tiles/).
